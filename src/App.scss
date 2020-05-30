@@ -1,0 +1,754 @@
+$white: #F7F7FA;
+$darker-white: rgb(240, 240, 240);
+
+$dark-blue: rgb(31, 44, 57);
+$darker-blue: rgb(58, 84, 108);
+
+$light-grey: rgb(237, 237, 237);
+$dark-grey: #333;
+$darker-grey: #333;
+
+* {
+  font-family: 'avenir next', 'avenir', sans-serif;
+}
+
+a {
+  color: $darker-blue;
+}
+
+a:visited {
+  color: $darker-blue;
+}
+
+body {
+  background-color: $white;
+}
+
+h2 { 
+  color: #495057;
+}
+
+h6 {
+  font-size: 14px;
+  color: $darker-blue;
+  font-weight: 700;
+}
+
+.Cards h6 {
+  font-size: 14px;
+  color: #495057;
+  font-weight: 600;
+}
+
+.App {
+  text-align: left;
+  background-color: $white;
+  color: $dark-grey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.App p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Navbar {
+  width: 100%;
+  background-color: $dark-blue;
+  padding: 1.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.Navbar .Left i {
+  border-radius: 0.25rem;
+  transform: translateZ(0);
+  transition: 0.25s ease-out;
+}
+
+.Navbar .Right i {
+  padding: 0.25rem;
+  background-color: $light-grey;
+  border-radius: 0.25rem;
+  color: $dark-grey;
+  transform: translateZ(0);
+  transition: 0.25s ease-out;
+}
+
+.Navbar i:hover, .Navbar i:focus {
+  transform: scale(1.05);
+}
+
+.Navbar a {
+  align-self: center;
+  text-decoration: none;
+}
+
+.Standout {
+  border-top: solid 0.05rem #E2E4E8;
+  border-bottom: solid 0.05rem #E2E4E8;
+  background-color: $light-grey;
+  padding: 1rem;
+  color: $darker-grey;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.NotFound {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  text-align: center;
+}
+
+.NotFound h3 {
+  font-size: 30px;
+}
+
+.NotFound a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0;
+}
+
+.Resume {
+  margin: 4rem;
+}
+
+.Page {
+  grid-row: 2;
+  flex: 1;
+  overflow-x: scroll;
+}
+
+.SearchDisplay {
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: center;
+  height: 60rem;
+  width: auto;
+  background-color: #E3E3E3;
+}
+
+.Search {
+  align-self: center;
+  flex: 1;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+.Search h4 {
+  color: #282c34;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4rem;
+}
+
+.Search h5 {
+  color: $light-grey;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Projects {
+  background-color: $darker-white;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  flex-flow: row wrap;
+  border-top: solid 0.05rem #E2E4E8;
+}
+
+.HomePage {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+#Date {
+  background-color: $dark-grey;
+}
+
+.Emojis {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1rem;
+  background-color: $dark-grey;
+  color: $white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.Emojis input {
+  border: none;
+  border-radius: 1rem;
+  width: 6rem;
+  text-align: center;
+  margin: 0.5rem;
+  background-color: transparent;
+  color: $white;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Emojis i {
+  color: $white;
+  font-size: 18px;
+  margin: 0.35rem;
+}
+
+.Emojis i:hover {
+  color: lightsalmon;
+}
+
+.Container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#Log {
+  grid-column: 1  / span 2;
+  background-color: $dark-grey;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  color: $white;
+}
+
+#Details {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+#DetailsTwo {
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+#OuterLabel, #Title, #Description {
+  display: inline-flex;
+}
+
+#Center {
+  align-self: start;
+}
+
+#InnerLabel {
+  margin: 0.25rem;
+  width: 9.5rem;
+  align-self: center;
+}
+
+
+.Container label {
+  font-size: 14px;
+  font-weight: 500;
+  align-self: center;
+}
+
+#Select {
+  width: 8rem;
+  align-self: center;
+}
+
+.Container input {
+  padding: 0.25rem;
+  border: solid 0.075rem #E2E4E8;
+  border-radius: 0.3rem;
+  color: $darker-grey;
+  width: 10rem;
+  align-self: center;
+}
+
+.Container button {
+  padding: 0.25rem;
+  margin: 1rem;
+  width: 4rem;
+  border: none;
+  border-radius: 0.25rem;
+  align-self: center;
+  background-color: #282c34;
+  color: $white;
+  font-weight: 500;
+}
+
+.Icon {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.fa-cuttlefish {
+  color: $white;
+  margin-left: 1.5rem;
+}
+
+.deckgo-highlight-code-carbon {
+  max-width: 700px;
+  justify-self: center;
+}
+
+.fa-hamburger {
+  display: none;
+  color: $white;
+}
+
+.Intro {
+  background-color: $darker-white;
+  padding: 2rem;
+  color: $dark-grey;
+  text-align: center;
+  font-weight: 500;
+  border-bottom: solid 0.05rem #E2E4E8;
+}
+
+.Intro p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.Left {
+  display: inline-flex;
+}
+
+.Right {
+  display: inline-flex;
+  align-self: center;
+}
+
+.Right i {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Right p {
+  color: $darker-white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.Right p:hover {
+  color: $darker-blue;
+  cursor: pointer;
+}
+
+section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.App section .Blog {
+  display: block;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.Cards {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  text-align: left;
+  background-color: $light-grey;
+  padding: 2rem;
+  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: 0.25s ease-out;
+  border: solid #E2E4E8 2px;
+  border-radius: 1rem;
+  box-shadow: #E2E4E8 1px 1px;
+
+  flex: 1;
+  min-width: 300px;
+  min-height: 150px;
+}
+
+.Cards:hover, .Cards:focus {
+  transform: scale(1.05);
+}
+
+.Cards p {
+  color: #495057;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Cards i {
+  color: #495057;
+  margin: 0.25rem;
+}
+
+.Cards i:hover {
+  color: $darker-blue;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0.20rem;
+  padding-left: 0.30rem;
+  padding-right: 0.30rem;
+  border: solid 0.050rem $white;
+  background-color: $white;
+  margin-left: 0.25rem;
+  margin-right: 1rem;
+  color: $darker-grey;
+  font-size: 14px;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #999;
+  border: solid 0.05rem #999;
+  cursor: pointer;
+}
+
+#Social {
+  display: flex;
+  flex-flow: row nowrap;
+  border-top: solid 0.05rem #E2E4E8;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  background-color: $light-grey;
+  padding: 1rem;
+}
+
+#Social a {
+  text-decoration: none;
+  justify-content: center;
+  margin: 2rem;
+}
+
+#Social a i {
+  font-size: 1.5rem;
+  color: $darker-blue;
+  height: 0;
+}
+
+#Social a i:hover, #Social a i:focus {
+  transform: scale(1.05);
+  color: rgb(46, 66, 85);
+}
+
+#Social a p {
+  align-self: start;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0.4rem;
+}
+
+#Social a p:hover {
+  color: rgb(46, 66, 85);
+}
+
+.Footer-One {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  border-top: solid 0.05rem #E2E4E8;
+  background-color: $darker-white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Footer-Two {
+  background-color: $light-grey;
+  border-top: solid 0.05rem #E2E4E8;
+  color: #495057;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Footer-Contact {
+  display: grid;
+  grid-column: 2;
+  text-align: center;
+  align-content: center;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  color: $dark-grey;
+}
+
+.Footer-Contact h4 {
+  color: $darker-grey;
+}
+
+i {
+  color: $white;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  align-self: center;
+}
+
+i:hover {
+  color: $darker-blue;
+  cursor: pointer;
+}
+
+.Down {
+  display: flex;
+  flex-flow: row nowrap;
+  outline: none;
+}
+
+.Dropdown {
+  align-self: center;
+}
+
+.Dropdown p {
+  color: lightsalmon;
+  align-self: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.Dropdown ul {
+  list-style: none;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 0.30rem;
+  border: solid 0.80rem $darker-blue;
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  margin-left: -1.5rem;
+  padding: 0;
+  z-index: 2;
+}
+
+.Dropdown li, .Dropdown button {
+  text-decoration: none;
+  border: none;
+  background-color: $darker-blue;
+  font-size: 17px;
+  font-weight: 400;
+  outline: none;
+}
+
+.Dropdown button a:hover {
+  color: $dark-blue;
+  cursor: pointer;
+}
+
+.Dropdown button a {
+  color: $light-grey;
+}
+
+.Dropdown button a:visited {
+  color: $light-grey;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App h5 {
+  font-size: 16px;
+}
+
+.Vert-Left {
+  display: grid;
+  grid-column: 1;
+  justify-content: flex-start;
+  align-self: flex-end;
+}
+
+.Vert-Right {
+  display: grid;
+  grid-column: 3;
+  justify-content: flex-start;
+  align-self: flex-end;
+}
+
+.Vertical {
+  margin: 2rem;
+  height: 5rem;
+  width: 0.1rem;
+  border-radius: 0.1rem;
+  background-color: $darker-grey;
+}
+
+.Vertical-Text {
+  writing-mode: tb-rl;
+  margin-top: 2rem;
+  margin-left: 1.525rem;
+  margin-right: 1.525rem;
+  font-weight: 700;
+  transform: translateZ(0);
+  transition: 0.25s ease-out;
+}
+
+.Vertical-Text a {
+  text-decoration: none;
+  color: $darker-grey;
+}
+
+.Vertical-Text:hover {
+  transform: scale(1.10);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Resume {
+    margin-left: 24rem;
+    margin-right: 24rem;
+    overflow-x: visible;
+  }
+  section, .Intro p {
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .Resume {
+    margin-left: 16rem;
+    margin-right: 16rem;
+    overflow-x: visible;
+  }
+  section, .Intro p {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px){
+  section, .Intro p {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .Resume {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    overflow-x: visible;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 799px) {
+  .Resume {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    overflow-x: visible;
+  }
+
+  #Social a {
+    margin: 1rem;
+  }
+
+}
+
+@media screen and (min-width: 501px) {
+  .Dropdown {
+    display: none;
+  }
+  .Navbar i {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .NotFound {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    text-align: center;
+  }
+
+  #Social a {
+    margin: 0.5rem;
+  }
+
+  .Dropdown ul {
+    margin-left: -2.75rem;
+  }
+
+  .Resume {
+    margin: 2rem;
+  }
+
+  .Vert-Left, .Vert-Right {
+    display: none;
+  }
+
+  .Right p {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .Right .fas {
+    font-size: 1.25rem;
+    margin-bottom: 0.1rem;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+  .Navbar i {
+    font-size: 1.5rem;
+  }
+  #nav-p {
+    display: none;
+  }
+  .fa-hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  section {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .Intro p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
