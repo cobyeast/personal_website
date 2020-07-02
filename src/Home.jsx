@@ -21,7 +21,7 @@ export class Home extends Component {
             <div style={props}>
             <div className='Intro'>
             <h5><strong>WELCOME TO MY HOMEPAGE</strong></h5>
-            <p>If you are looking for some cool JavaScript and Python projects, be sure to take a look at my <a href='/projects'>projects</a> page. I also have an ongoing <a href='/blog'>blog</a>, if you are looking to learn more about specific programming concepts.</p>
+            <p>If you are looking for some cool JavaScript, TypeScript, and Python projects, be sure to take a look at my <a href='/projects'>projects</a> page. I also have an ongoing <a href='/blog'>blog</a>, if you are looking to learn more about specific programming concepts.</p>
             </div>
             </div> 
           )}
@@ -42,16 +42,16 @@ export class Home extends Component {
               <h1>About</h1>
               <br/>
               <h5><strong>My Journey</strong></h5>
-              <p>In the last two years, I have gone from being a fresh out of college graduate to have gained hands-on experience with over eleven different high-growth technology startups. Over the last year, I have fallen in love with programming and have begun taking on Software Development projects at mid-sized startups like <a href='https://igluu.com/'>Igluu</a>. I began my career working as an associate at Table Public Relations, a small firm located downtown San Francisco and now work as a marketing operations manager at Crosspoint Evaluations.</p>
+              <p>In the last two years, I have gone from being a fresh out of college graduate to have gained hands-on experience with over eleven different high-growth technology startups. Over the last year, I have fallen in love with programming and have begun taking on Software Development projects at mid-sized startups like <a href='https://gobii.com/'>gobii</a>. I began my career working as an associate at Table Public Relations, a small firm located downtown San Francisco and now work as a marketing operations manager at Crosspoint Evaluations.</p>
               <h5><strong>Myself</strong></h5>
               <p>In my free time, I will either be running, reading psychology books, hanging at a coffee shop or munching on some pastries. I am personally interested in running, coding, reading, cryptocurrencies, stocks, fashion, marketing, border collies, and good-mood food.</p>
               </section>
               <section>
               <h1>Work Experience</h1>
               <br/>
-              <h5><strong>Igluu</strong></h5>
+              <h5><strong>Gobii</strong></h5>
               <h6>March 2020 - Present // Project-Based Software Developer</h6>
-              <p>As a project-based Software Developer, I actively create React components in JavaScript for Igluu's website. In this position, I use version control – Git/GitHub and frameworks/languages like HMTL5, Bootstrap, and SCSS/CSS3. Within my first month, I  created an interactive product landing page where I collaborated with Igluu's Backend Developers, UI, and UX teams.</p>
+              <p>As a project-based Software Developer, I actively create React components in JavaScript for Gobii's website. In this position, I use version control – Git/GitHub and frameworks/languages like HMTL5, Bootstrap, and SCSS/CSS3. Within my first month, I  created an interactive product landing page where I collaborated with Gobii's Backend Developers, UI, and UX teams.</p>
               <h5><strong>Crosspoint Evaluations</strong></h5>
               <h6>June 2019 - Present // Marketing Operations Manager</h6>
               <p>As Marketing Operations Manager, I lead and enable a team of three sales associates, craft business development campaigns, manage our sales pipeline using Pipedrive, conduct competitive analysis, track key performance indicators, and promote our services through direct marketing channels.</p>

@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
-import Cards from './Cards'
-import Contact from '../components/Contact'
+import Cards from '../components/cards.component'
+import Contact from '../components/contact.component'
 import { Spring, Transition, animated } from 'react-spring/renderprops'
-import ProjectsData from './Projects.json'
+import ProjectsJson from './ProjectsJson.json'
 import MetaTags from 'react-meta-tags';
 
-const Project = () => {
+const Projects = () => {
   return (
   <Fragment>
       <MetaTags>
@@ -47,7 +47,7 @@ const Project = () => {
     </section>
     </div>
     <div className="Projects">
-      { ProjectsData.map((project) => {
+      { ProjectsJson.map((project) => {
           return (
             <Cards 
               key={project['ID']}
@@ -71,4 +71,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Projects

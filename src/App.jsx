@@ -7,9 +7,9 @@ class App extends Component {
   render() {
   return (
     <Fragment>
-    <Home />
+      <Home />
     </Fragment>
   )}
 }
 
-export default App;
+export default App

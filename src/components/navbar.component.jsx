@@ -1,5 +1,5 @@
 import React from 'react'
-import Dropdown from '../navbar/Dropdown'
+import Dropdown from './dropdown.component.jsx'
 import { Spring } from 'react-spring/renderprops'
 
 const items = [
@@ -33,7 +33,7 @@ const Navbar = ({ iconLogo, iconOne, iconTwo, iconThree }) => {
           <a href='/'><i className={iconLogo}/></a>
           </div>
           <div className='Right'>
-          <a href='/resume'><button className='btn'>Resume</button></a>
+          {/* <a href='/resume'><button className='btn'>Resume</button></a> */}
             <Dropdown items={items}/>
             <a href='/'><p id='nav-p'>Home</p></a>
             <a href='/projects'><p id='nav-p'>Projects</p></a>

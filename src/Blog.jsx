@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Contact from '../components/Contact'
+import Contact from './components/contact.component'
 import { Spring, Transition, animated } from 'react-spring/renderprops'
 import '@deckdeckgo/highlight-code';
 import { defineCustomElements as deckDeckGoElement } from '@deckdeckgo/highlight-code/dist/loader';
@@ -7,7 +7,7 @@ import MetaTags from 'react-meta-tags';
 
 deckDeckGoElement();
 
-const Project = () => {
+const Blog = () => {
 
   return (
   <Fragment>
@@ -166,4 +166,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Blog

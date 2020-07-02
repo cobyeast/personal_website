@@ -1,12 +1,11 @@
 import React, { StrictMode, Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Blog from './blog/Blog'
+import Navbar from './components/navbar.component'
+import Footer from './components/footer.component'
+import Blog from './Blog'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Resume from './components/Resume'
-import Project from './page/Project'
+import Projects from './projects/Projects'
 
 const NoMatchPage = () => {
   return (
@@ -27,8 +26,7 @@ ReactDOM.render(
     <Router>
       <Switch>
         <Route exact path='/' component={App} />
-        <Route exact path='/projects' component={Project} />
-        <Route exact path='/resume' component={Resume} />
+        <Route exact path='/projects' component={Projects} />
         <Route exact path='/blog' component={Blog} />
         <Route component={NoMatchPage} />
       </Switch>
