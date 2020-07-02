@@ -5,7 +5,13 @@ My own website, made with React, and pure JavaScript. Others include languages l
 Made a website to highlight work exprience, and Frontend skills. I made this while crafting a full product landing page using modern frameworks for Gobii, a real estate application.
 
 ## How To Run
-Clone this repo, and run the following bash commands -->>
+Clone this repo, and navigate inside the personal_website directory. After, run the following bash commands -->>
+
+```bash
+yarn
+```
+
+This will install all packages from the <code>package-lock.json</code> file. Once all dependecies have been downloaded, run -->>
 
 ```bash
 npm start
