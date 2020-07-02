@@ -1,15 +1,14 @@
-This project was bootstrapped with [Create React App].
+# Personal Website
+My own website, made with React, a little TypeScript, and pure JavaScript. Others include languages like HTML5, SCSS, frameworks like Gatsby, React, and tools like Bootstrap and Spring.
 
-## First Draft of My Personal Website
+## Overview
+Made a website to highlight work exprience, and Frontend skills. I made this while crafting a full product landing page using modern frameworks for Gobii, a real estate application.
 
-Website was created with HTML5, SCSS, JavaScript, and also used frameworks like Gatsby, React, and Bootstrap. If you like any of the react components used, feel free to use them. 
+## How To Run
+Clone this repo, and run the following bash commands -->>
 
-In the project directory, you can run:
+```bash
+npm start
+```
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This command runs the app in development mode on [http://localhost:3000](http://localhost:3000) by default. The page will reload if you make edits. You will also see any lint errors in the console.
