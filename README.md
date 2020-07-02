@@ -1,5 +1,5 @@
 # Personal Website
-My own website, made with React, a little TypeScript, and pure JavaScript. Others include languages like HTML5, SCSS, frameworks like Gatsby, React, and tools like Bootstrap and Spring.
+My own website, made with React, and pure JavaScript. Others include languages like HTML5, SCSS, frameworks like Gatsby, React, and tools like Bootstrap and Spring.
 
 ## Overview
 Made a website to highlight work exprience, and Frontend skills. I made this while crafting a full product landing page using modern frameworks for Gobii, a real estate application.
