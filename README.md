@@ -5,7 +5,7 @@ My own website, made with React, and pure JavaScript. Others include languages l
 Made a website to highlight work exprience, and Frontend skills. I made this while crafting a full product landing page using modern frameworks for Gobii, a real estate application.
 
 ## How To Run
-Clone this repo, and navigate inside the personal_website directory. After, run the following bash commands -->>
+Clone this repo, and navigate inside the personal_website directory. After, run the following bash command to init yarn -->>
 
 ```bash
 yarn
