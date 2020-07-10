@@ -14,7 +14,7 @@ yarn
 This will install all packages from the <code>package-lock.json</code> file. Once all dependecies have been downloaded, run -->>
 
 ```bash
-npm start
+yarn run start
 ```
 
 This command runs the app in development mode on [http://localhost:3000](http://localhost:3000) by default. The page will reload if you make edits. You will also see any lint errors in the console.
